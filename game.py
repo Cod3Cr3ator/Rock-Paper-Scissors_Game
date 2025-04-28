@@ -1,5 +1,5 @@
-print("HELLO PLAYERS \n",
-      "Welcome to  Rock, Paper, Scissors game \n" )
+print(" \n 🎮 HELLO PLAYERS 🎮 \n",
+      "Welcome to  Rock✊, Paper✋, Scissors✌️ game \n" )
 
 print("RULE OF THE GAME: \n" \
 "Please choose one between ; rock, paper, or scissors \n")
@@ -36,12 +36,13 @@ else:
         print("\n\n")
         print(f"{p1_name} choose : {player1}")
         print(f"{p2_name} choose : {player2}")
-        print(f"The winner is {p1_name}")
+        print("\n")
+        print(f"🎉 The winner is {p1_name} 🎉 ")
         print("\n\n")
     else:
         print("\n\n")
         print(f"{p1_name} choose : {player1}")
         print(f"{p2_name} choose : {player2}")
         print("\n")
-        print(f"The winner is {p2_name}")
+        print(f"🎉 The winner is {p2_name} 🎉")
         print("\n\n")
