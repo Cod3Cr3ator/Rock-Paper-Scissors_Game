@@ -4,16 +4,16 @@ print(" \n 🎮 HELLO PLAYERS 🎮 \n",
 print("RULE OF THE GAME: \n" \
 "Please choose one between ; rock, paper, or scissors \n")
 
-import getpass
+from getpass import getpass
 
 p1_name = input("Player one enter you name please :")
-player1 = getpass.getpass(f"Enter you choice {p1_name} :").lower()
+player1 = getpass(f"Enter you choice {p1_name} :").lower()
 print("Your choice was saved")
 
 print("\n")
 
 p2_name = input("Player two enter your name please :")
-player2 = getpass.getpass(f"Enter your choice {p2_name} :").lower()
+player2 = getpass(f"Enter your choice {p2_name} :").lower()
 print("Your choice was saved")
 
 valid_choices = ["rock", "paper", "scissors"]
@@ -26,6 +26,9 @@ else:
     if player1 == player2 :
 
         print("\n\n")
+        print(f"{p1_name} choose : {player1}")
+        print(f"{p2_name} choose : {player2}")
+        print("\n")
         print ("It's a TIE for both of you")
         print("\n\n")
 
